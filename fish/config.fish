@@ -12,9 +12,6 @@ set -gx NODE_ENV development
 # Update dotfiles in background
 sh ~/.config/fish/dotfile_update.sh &
 
-# https://github.com/starship/starship
-starship init fish | source
-
 ### Go
 # Go installation root directory
 set -gx GOROOT /usr/local/go
@@ -30,3 +27,6 @@ set -gx PATH ~/.cargo/bin $PATH
 ### Java
 # Add Gradle to PATH
 set -gx PATH /opt/gradle/bin/ $PATH
+
+# https://github.com/starship/starship
+starship init fish | source

@@ -6,4 +6,4 @@ mkdir -p ~/.local/bin
 mkdir -p ~/.cargo/bin
 
 ### Fish
-sh fish.sh
+sh ./fish.sh

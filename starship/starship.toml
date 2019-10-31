@@ -1,0 +1,28 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+
+# Time module
+[time]
+use_12hr = true
+disabled = false
+format = "%I:%M %p"
+utc_time_offset = -7
+
+# Directory listing
+[directory]
+truncation_length = 2
+fish_style_pwd_dir_length	= 1
+
+# Character before prompt
+[character]
+symbol = "∴"
+
+# Battery
+[battery]
+full_symbol = "🔋"
+charging_symbol = "⚡️"
+discharging_symbol = "💀"
+
+[[battery.display]]
+threshold = 1000
+style = "bold red"

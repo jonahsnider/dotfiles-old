@@ -9,11 +9,24 @@ set -gx PATH ~/.local/bin $PATH
 # Custom env
 set -gx NODE_ENV development
 
-# Add Cargo and Rust tools to path
-set -gx PATH ~/.cargo/bin $PATH
-
 # Update dotfiles in background
 sh ~/.config/fish/dotfile_update.sh &
 
 # https://github.com/starship/starship
 starship init fish | source
+
+### Go
+# Go installation root directory
+set -gx GOROOT /usr/local/go
+# Work directory
+set -gx GOPATH $HOME/Programming/go
+# Add Go to PATH
+set -gx PATH $GOPATH/bin $GOROOT/bin $PATH
+
+### Rust
+# Add Rust to PATH
+set -gx PATH ~/.cargo/bin $PATH
+
+### Java
+# Add Gradle to PATH
+set -gx PATH /opt/gradle/bin/ $PATH

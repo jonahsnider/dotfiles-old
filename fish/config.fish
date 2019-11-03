@@ -30,3 +30,6 @@ set -gx PATH /opt/gradle/bin/ $PATH
 
 # https://github.com/starship/starship
 starship init fish | source
+
+### .NET
+set -gx DOTNET_CLI_TELEMETRY_OPTOUT true

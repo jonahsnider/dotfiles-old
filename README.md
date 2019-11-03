@@ -32,3 +32,12 @@ sh ./nodejs.sh
 ```
 
 Other installation instructions are [here](https://nodejs.org/en/download/package-manager/).
+
+### .NET
+
+Install the .NET SDK from Microsoft with this command:
+
+```sh
+# Requires root
+sh ./dotnet.sh
+```

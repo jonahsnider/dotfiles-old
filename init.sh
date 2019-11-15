@@ -7,3 +7,7 @@ mkdir -p ~/.cargo/bin
 
 ### Fish
 sh ./fish.sh
+
+### Git
+# Config file
+ln -s ./.gitconfig ~/.gitconfig

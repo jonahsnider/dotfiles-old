@@ -33,3 +33,8 @@ starship init fish | source
 
 ### .NET
 set -gx DOTNET_CLI_TELEMETRY_OPTOUT true
+
+### GPG
+# Fix the "gpg: error building skey array: Inappropriate ioctl for device" error
+# from https://github.com/keybase/keybase-issues/issues/1712#issuecomment-141226705
+export GPG_TTY=$tty

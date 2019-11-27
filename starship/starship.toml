@@ -17,6 +17,7 @@ fish_style_pwd_dir_length	= 1
 [character]
 symbol = "∴"
 
+# Battery monitor
 [[battery.display]]
 threshold = 15
 style = "bold #ff5555"

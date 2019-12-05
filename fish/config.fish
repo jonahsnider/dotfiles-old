@@ -36,6 +36,7 @@ set -gx DOTNET_CLI_TELEMETRY_OPTOUT true
 # Fix the "gpg: error building skey array: Inappropriate ioctl for device" error
 # Solution from https://github.com/keybase/keybase-issues/issues/1712#issuecomment-141226705
 # This gets piped to /dev/null because it will print environment variables for some reason
+# If this doesn't fix the issue, try adding something like this to /etc/environment
 export GPG_TTY=$tty > /dev/null
 
 # https://github.com/starship/starship

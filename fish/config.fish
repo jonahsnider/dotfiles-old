@@ -39,5 +39,7 @@ set -gx DOTNET_CLI_TELEMETRY_OPTOUT true
 # If this doesn't fix the issue, try adding something like this to /etc/environment
 export GPG_TTY=$tty > /dev/null
 
+thefuck --alias | source
+
 # https://github.com/starship/starship
 starship init fish | source

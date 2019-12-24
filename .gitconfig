@@ -8,3 +8,5 @@
 	autocrlf = false
 [commit]
 	gpgsign = true
+[credential]
+	helper = store

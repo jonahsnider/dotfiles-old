@@ -30,3 +30,9 @@ style = "bold #f1fa8c"
 [[battery.display]]
 threshold = 100
 style = "bold #50fa7b"
+
+# Show current git commit
+[git_commit]
+disabled = false
+prefix = "@"
+suffix = " "

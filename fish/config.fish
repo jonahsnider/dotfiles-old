@@ -1,7 +1,7 @@
 umask 002
 
 # Remove the Fish greeting
-set fish_greeting computer
+set fish_greeting
 
 # Add local binaries to PATH
 set -gx PATH ~/.local/bin $PATH

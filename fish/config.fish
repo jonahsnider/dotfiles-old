@@ -32,6 +32,9 @@ set -gx PATH /opt/gradle/bin/ $PATH
 ### .NET
 set -gx DOTNET_CLI_TELEMETRY_OPTOUT true
 
+### GitHub CLI
+set -gx PATH ~/.githubcli/bin $PATH
+
 ### GPG
 # Fix the "gpg: error building skey array: Inappropriate ioctl for device" error
 # Solution from https://github.com/keybase/keybase-issues/issues/1712#issuecomment-141226705

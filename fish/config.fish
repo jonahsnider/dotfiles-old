@@ -16,7 +16,7 @@ sh ~/.config/fish/dotfile_update.sh &
 # Go installation root directory
 set -gx GOROOT /usr/local/go
 # Work directory
-set -gx GOPATH $HOME/Programming/go
+set -gx GOPATH $HOME/programming/go
 # Add Go to PATH
 set -gx PATH $GOPATH/bin $GOROOT/bin $PATH
 

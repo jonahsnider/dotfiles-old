@@ -42,10 +42,6 @@ set -gx PATH ~/.githubcli/bin $PATH
 # If this doesn't fix the issue, try adding something like this to /etc/environment
 export GPG_TTY=$tty > /dev/null
 
-### Docker with WSL support
-alias docker docker.exe
-alias docker-compose docker-compose.exe
-
 thefuck --alias | source
 
 # https://github.com/starship/starship

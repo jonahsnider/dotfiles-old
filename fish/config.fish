@@ -37,6 +37,10 @@ set -gx PATH ~/.githubcli/bin $PATH
 ### Nim
 set -gx PATH ~/.nimble/bin $PATH
 
+### Deno
+set -gx DENO_INSTALL ~/.deno
+set -gx PATH $DENO_INSTALL/bin $PATH
+
 ### GPG
 # Fix the "gpg: error building skey array: Inappropriate ioctl for device" error
 # Solution from https://github.com/keybase/keybase-issues/issues/1712#issuecomment-141226705

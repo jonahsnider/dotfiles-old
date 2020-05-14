@@ -28,7 +28,6 @@ set -gx PATH ~/.cargo/bin $PATH
 # Add Gradle to PATH
 set -gx PATH /opt/gradle/bin/ $PATH
 
-
 ### .NET
 set -gx DOTNET_CLI_TELEMETRY_OPTOUT true
 

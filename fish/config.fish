@@ -50,6 +50,9 @@ set -gx PATH ~/.npm-global/bin $PATH
 # Solution from https://github.com/keybase/keybase-issues/issues/1712#issuecomment-141226705
 export GPG_TTY=(tty)
 
+### Python
+alias python=(which python3)
+
 thefuck --alias | source
 
 # https://github.com/starship/starship

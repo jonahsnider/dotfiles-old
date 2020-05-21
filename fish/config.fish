@@ -42,6 +42,7 @@ set -gx DENO_INSTALL ~/.deno
 set -gx PATH $DENO_INSTALL/bin $PATH
 
 ### npm
+npm config set prefix '~/.npm-global'
 set -gx PATH ~/.npm-global/bin $PATH
 
 ### GPG

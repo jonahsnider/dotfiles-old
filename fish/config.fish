@@ -54,7 +54,7 @@ export GPG_TTY=(tty)
 # Use Python 3 by default
 alias python=(which python3)
 # Poetry
-set -gx PATH ~/.poetry/bin
+set -gx PATH ~/.poetry/bin $PATH
 
 thefuck --alias | source
 

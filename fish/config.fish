@@ -51,6 +51,7 @@ set -gx PATH ~/.npm-global/bin $PATH
 export GPG_TTY=(tty)
 
 ### Python
+# Use Python 3 by default
 alias python=(which python3)
 
 thefuck --alias | source

@@ -31,7 +31,6 @@ set -gx PATH /opt/gradle/bin/ $PATH
 ### .NET
 set -gx DOTNET_CLI_TELEMETRY_OPTOUT true
 
-
 ### Nim
 set -gx PATH ~/.nimble/bin $PATH
 
@@ -49,8 +48,8 @@ set -gx PATH ~/.npm-global/bin $PATH
 export GPG_TTY=(tty)
 
 ### Python
-# Use Python 3 by default
-alias python=(which python3)
+# Use Python 3.8 by default
+alias python=(which python3.8)
 # Poetry
 set -gx PATH ~/.poetry/bin $PATH
 

@@ -31,8 +31,6 @@ set -gx PATH /opt/gradle/bin/ $PATH
 ### .NET
 set -gx DOTNET_CLI_TELEMETRY_OPTOUT true
 
-### GitHub CLI
-set -gx PATH ~/.githubcli/bin $PATH
 
 ### Nim
 set -gx PATH ~/.nimble/bin $PATH
@@ -55,8 +53,6 @@ export GPG_TTY=(tty)
 alias python=(which python3)
 # Poetry
 set -gx PATH ~/.poetry/bin $PATH
-
-thefuck --alias | source
 
 # https://github.com/starship/starship
 starship init fish | source

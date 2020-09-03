@@ -24,14 +24,6 @@ set -gx PATH $GOPATH/bin $GOROOT/bin $PATH
 # Add Rust to PATH
 set -gx PATH ~/.cargo/bin $PATH
 
-### Java
-# Add Gradle to PATH
-set -gx PATH /opt/gradle/bin/ $PATH
-# AdoptOpenJDK
-set -gx PATH ~/.java/bin $PATH
-set -gx JDK_HOME ~/.java
-set -gx JAVA_HOME ~/.java
-
 ### .NET
 set -gx DOTNET_CLI_TELEMETRY_OPTOUT true
 

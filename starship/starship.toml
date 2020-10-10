@@ -99,6 +99,9 @@ only_detached = false
 # suffix = " "
 format = "[@$hash]($style) "
 
+[git_status]
+deleted = "🗙"
+
 [username]
 show_always = true
 format = "[$user]($style)@"

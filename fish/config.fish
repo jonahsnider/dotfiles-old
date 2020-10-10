@@ -49,5 +49,9 @@ alias python=(which python3.8)
 # Poetry
 set -gx PATH ~/.poetry/bin $PATH
 
+### Ruby
+# gem
+set -gx GEM_HOME ~/.gem/gems
+
 # https://github.com/starship/starship
 starship init fish | source

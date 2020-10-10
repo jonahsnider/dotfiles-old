@@ -53,5 +53,13 @@ set -gx PATH ~/.poetry/bin $PATH
 # gem
 set -gx GEM_HOME ~/.gem/gems
 
+### Fuchsia
+# jiri and fx tools
+set -gx PATH /mnt/m/fuchsia/src/.jiri_root/bin $PATH
+
+# fx
+set -gx FUCHSIA_DIR ~/programming/fuchsia
+source /mnt/m/fuchsia/src/scripts/fx-env.fish
+
 # https://github.com/starship/starship
 starship init fish | source

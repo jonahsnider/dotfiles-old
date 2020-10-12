@@ -110,3 +110,6 @@ format = "[$user]($style)@"
 ssh_only = false
 format = "[$hostname]($style) "
 style = "green"
+
+[java]
+style = "red"
